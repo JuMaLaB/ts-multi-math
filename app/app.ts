@@ -37,7 +37,11 @@ function logError(err: string): void {
   console.error(err);
 }
 
-let myRes: Result = {
+const newPlayer: Player = new Player();
+newPlayer.name = 'Some one';
+console.log(newPlayer.formatName());
+
+/* let myRes: Result = {
   playerName: 'JB',
   score: 5,
   problemCount: 5,
@@ -47,4 +51,4 @@ let myRes: Result = {
 let player: Person = {
   name: 'JU',
   formatName: () => 'Ju'
-}
+} */

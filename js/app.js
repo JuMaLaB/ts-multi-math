@@ -30,14 +30,7 @@ var logMessage = function (message) { return console.log(message); };
 function logError(err) {
     console.error(err);
 }
-var myRes = {
-    playerName: 'JB',
-    score: 5,
-    problemCount: 5,
-    factor: 7,
-};
-var player = {
-    name: 'JU',
-    formatName: function () { return 'Ju'; }
-};
+var newPlayer = new Player();
+newPlayer.name = 'Some one';
+console.log(newPlayer.formatName());
 //# sourceMappingURL=app.js.map
