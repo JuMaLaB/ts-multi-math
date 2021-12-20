@@ -1,5 +1,6 @@
 "use strict";
 function startGame() {
+  // starting new game
   var messagesElement = document.getElementById('messages');
   messagesElement!.innerText = 'Welcome to MultiMath! Starting new game...';
 }
